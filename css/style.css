@@ -1,0 +1,93 @@
+/* Color palette from logo */
+:root {
+    --cream: #EAD7C3;
+    --peach: #D4B99F;
+    --burgundy: #953837;
+    --olive: #7A7860;
+    --burnt-orange: #E08D3E;
+    --light-pink: #E0A9A0;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--olive);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--peach);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header a {
+    color: var(--burgundy);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+header a:hover {
+    color: var(--burnt-orange);
+}
+
+h1 {
+    color: var(--burgundy);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: var(--burnt-orange);
+}
+
+p {
+    color: var(--olive);
+    font-size: 1.1em;
+}
+
+/* Link colors throughout the page */
+a {
+    color: var(--burgundy);
+    text-decoration: none;
+    border-bottom: 2px solid var(--burnt-orange);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: var(--burnt-orange);
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 20px 0;
+    background-color: white;
+}
+
+table th {
+    background-color: var(--burgundy);
+    color: var(--cream);
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid var(--peach);
+    padding: 10px;
+    color: var(--olive);
+}
+
+table tr:hover {
+    background-color: var(--light-pink);
+}
